@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/* awal style content project */
+
+.my-project-head {
+  width: 100%;
+  margin: auto;
+}
+
+.my-project-head h1 {
+  text-align: center;
+}
+
+.my-project-content {
+  width: 70%;
+  display: flex;
+  background: pink;
+  margin: auto;
+  padding-left: 0px;
+}
+
+.my-project-content .my-project-gambar img {
+  width: 800px;
+  padding-top: 22px;
+  padding-right: 25px;
+}
+
+.my-project-text {
+  width: 70%;
+  display: flex;
+  background: pink;
+  margin: auto;
+  padding-left: 0px;
+  text-align: justify;
+}
+
+/* akhir style content project */
+
+/* awal style form my project */
+
+.add-my-project-form {
+  width: 700px;
+  margin: auto;
+  margin-bottom: 60px;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  border: 1px solid black;
+  box-shadow: 10px 10px;
+  background-color: rgb(6, 255, 6);
+}
+
+.add-my-project-form .form-container {
+  width: 550px;
+}
+
+.form-container h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.form-container form label {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.form-container .textarea-form-project {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 13px;
+  background: #f4f3f3;
+  border: 1px solid #c4c4c4;
+  border-radius: 8px;
+  resize: none;
+}
+
+.form-container textarea {
+  height: 250px;
+}
+
+.gitu-doang-bingung {
+  width: 550px;
+  display: flex;
+}
+
+.start-date-kiri {
+  width: 50%;
+  padding-right: 50px;
+}
+
+.end-date-kanan {
+  width: 50%;
+}
+
+.gitu-doang-bingung label {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.gitu-doang-bingung input {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 13px;
+  background: #f4f3f3;
+  border: 1px solid #c4c4c4;
+  border-radius: 8px;
+  resize: none;
+  text-align: end;
+}
+
+.padding-right-checkbox1 {
+  padding-right: 100px;
+}
+
+.padding-right-checkbox2 {
+  padding-right: 99.2px;
+}
+
+.form-checkbox-technologies {
+  width: 103%;
+  padding-bottom: 10px;
+  display: flex;
+  border: 1px solid #c4c4c4;
+  border-radius: 8px;
+  background-color: #f4f3f3;
+}
+
+.ahelah {
+  padding-bottom: 10px;
+  padding-top: 2px;
+  padding-left: 2px;
+}
+
+.form-input-file-image {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 13px;
+  background: #f4f3f3;
+  border: 1px solid #c4c4c4;
+  border-radius: 8px;
+  resize: none;
+  text-align: end;
+}
+
+.form-input-file-image input {
+  color: white;
+}
+
+.add-my-project-form form .button-send-project {
+  width: 102%;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 13px;
+  resize: none;
+  text-align: end;
+}
+
+.add-my-project-form form .button-send-project button {
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+}
+
+/* akhir style form my project */
+
+.line-hr {
+  width: 80%;
+}
+
+/* awal style project post */
+
+.project-post h1 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.grid-container {
+  display: grid;
+  column-gap: 20px;
+  row-gap: 60px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto 1fr;
+  width: 80%;
+  margin: auto;
+}
+
+.grid-container .grid-item1 {
+  margin: auto;
+  display: grid;
+  width: 300px;
+  border: 2px solid black;
+  background-color: pink;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 10px 10px;
+}
+
+.grid-container img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.grid-item1 button {
+  width: 140px;
+  height: 50px;
+  border-radius: 8px;
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-group-post-project {
+  text-align: center;
+}
+
+.font-awesome-grid {
+  font-size: 30px;
+  padding-bottom: 10px;
+  letter-spacing: 3px;
+}
+
+.judul-project-deadline p {
+  line-height: 0;
+  text-decoration: none;
+}
+
+.judul-project {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.deadline-project {
+  font-size: 13px;
+}
+
+.project-detail {
+  text-align: justify;
+}

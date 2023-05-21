@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+    <title>Dumbways Web App</title>
+    <link rel="stylesheet" href="css\style.css" />
+    <link rel="stylesheet" href="css\my-Project.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- awal-navigasi -->
+    <nav>
+      <div class="nav-kiri">
+        <ul>
+          <li>
+            <img src="assets\icon\logo-dumbways.png" alt="logo" />
+          </li>
+
+          <li>
+            <a href="">Home</a>
+          </li>
+
+          <li>
+            <a class="active" href="my-project.html">My Project</a>
+          </li>
+          <li>
+            <a href="#">My Testimonials</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav-kanan">
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+    <!-- akhir-navigasi -->
+
+    <!-- awal form add my project -->
+
+    <div class="add-my-project">
+      <div class="add-my-project-form">
+        <div class="form-container">
+          <form onsubmit="addProject(event)">
+            <h1>Add My Project</h1>
+            <div>
+              <label for="input-project-name">Project name</label>
+              <input
+                type="text"
+                id="input-project-name"
+                class="textarea-form-project"
+                placeholder="Project Name"
+                required
+              />
+            </div>
+
+            <div class="gitu-doang-bingung">
+              <div class="start-date-kiri">
+                <label for="input-start-date">Start Date</label>
+                <input
+                  type="date"
+                  id="input-start-date"
+                  required
+                />
+              </div>
+              <div class="end-date-kanan">
+                <label for="input-end-date">End Date</label>
+                <input
+                  type="date"
+                  id="input-end-date"
+                  required
+                />
+              </div>
+            </div>
+
+            <div>
+              <label for="input-description">Description</label>
+              <textarea
+                id="input-description"
+                class="textarea-form-project"
+                placeholder="Type the Description"
+                required
+              ></textarea>
+            </div>
+            <div class="form-checkbox-technologies">
+              <div>
+                <div class="ahelah">
+                  <label>Technologies</label>
+                </div>
+                <div>
+                  <label for="node-js" class="padding-right-checkbox1">
+                    <input type="checkbox" id="node-js" />Node JS</label
+                  >
+
+                  <label for="next-js">
+                    <input type="checkbox" id="next-js" />Next JS</label
+                  >
+                </div>
+                <div>
+                  <label for="react-js" class="padding-right-checkbox2">
+                    <input type="checkbox" id="react-js" />React JS</label
+                  >
+
+                  <label for="type-script">
+                    <input type="checkbox" id="type-script" />TypeScript</label
+                  >
+                </div>
+              </div>
+            </div>
+            <div>
+              <div>
+                <label for="input-imeg">Uploud images</label>
+              </div>
+              <div class="form-input-file-image">
+                <input
+                  type="file"
+                  id="input-imeg"
+                  required
+                />&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<i
+                  class="fa-solid fa-paperclip"
+                ></i>
+              </div>
+            </div>
+            <div class="button-send-project">
+              <button>Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- akhir form add my project -->
+
+    <hr class="line-hr" />
+
+    <div class="project-post">
+      <h1>My Fucking Project</h1>
+      <div id="project" class="grid-container">
+        <div class="grid-item1">
+          <img src="sayang1/IMG-20220502-WA0006.jpg" alt="gambar-hehe" />
+          <div class="judul-project-deadline">
+            <a href="my-project-content.html"><p class="judul-project">gambar hp</p></a>
+            <p class="deadline-project">Duration: 4month</p>
+          </div>
+          <div class="project-detail">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Consequatur dolorum libero expedita molestias est officiis enim delectus iure laborum ipsam nobis, 
+              cum inventore odio corrupti adipisci dolores veritatis ad ea.
+            </p>
+          </div>
+          <div class="font-awesome-grid">
+            <i class="fa-brands fa-node-js"></i>
+            <i class="fa-brands fa-google-play"></i>
+            <i class="fa-brands fa-react"></i>
+            <i class="fa-brands fa-java"></i>
+          </div>
+          <div class="btn-group-post-project">
+            <button>Edit</button>
+            <button>Read</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/My-Project.js"></script>
+  </body>
+</html>
