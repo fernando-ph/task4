@@ -13,7 +13,7 @@ function addProject(event) {
   let mulai = new Date(startDate);
   let akhir = new Date(endDate);
   let selisih = akhir.getTime() - mulai.getTime();
-  let durasi = Math.ceil(selisih / (1000 * 3600 * 24 * 30));
+  let durasi = Math.ceil(selisih / Math.abs(1000 * 3600 * 24 * 30));
 
   // icon
 
