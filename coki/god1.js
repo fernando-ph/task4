@@ -171,6 +171,6 @@ function getDistanceTime(time) {
 }
 
 // set real time distancetime
-// setInterval(function () {
-//   renderProject();
-// }, 2000);
+//  setInterval(function () {
+//    renderProject();
+//  }, 2000);
